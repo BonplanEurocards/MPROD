@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Führerschein Express - Deutschland</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50px;
+            padding: 15px 25px;
+            z-index: 100;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-900">
+
+    <a href="https://wa.me/4915750821799" class="whatsapp-float">
+        <i class="fab fa-whatsapp mr-2 text-2xl"></i> Kontaktieren Sie uns
+    </a>
+
+    <nav class="bg-black text-white p-4 sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-xl md:text-2xl font-bold text-orange-500 italic">FÜHRERSCHEIN EXPRESS</div>
+            <div class="hidden md:flex space-x-6 uppercase text-sm font-semibold">
+                <a href="#home" class="hover:text-orange-500">Startseite</a>
+                <a href="#procedure" class="hover:text-orange-500">Ablauf</a>
+                <a href="#docs" class="hover:text-orange-500">Dokumente</a>
+                <a href="https://wa.me/4915750821799" class="bg-green-600 px-4 py-2 rounded text-white flex items-center hover:bg-green-700">
+                    <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="relative h-[600px] flex items-center justify-center text-center text-white">
+        <div class="absolute inset-0 bg-black opacity-70"></div>
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?auto=format&fit=crop&w=1350&q=80'); z-index:-1;"></div>
+        
+        <div class="relative z-10 px-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 uppercase text-orange-500">Ihr Führerschein in 10 Tagen</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto font-light">
+                Keine theoretische oder praktische Prüfung erforderlich. Wir übernehmen die komplette Abwicklung für Sie.
+            </p>
+            <a href="https://wa.me/4915750821799" class="bg-green-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-green-700 transition flex items-center justify-center w-max mx-auto shadow-2xl scale-110">
+                <i class="fab fa-whatsapp text-2xl mr-3"></i> JETZT PER WHATSAPP BESTELLEN
+            </a>
+        </div>
+    </header>
+
+    <section id="procedure" class="py-20 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-12 uppercase border-b-4 border-orange-500 inline-block">Unser Service</h2>
+            <p class="text-lg mb-12 max-w-3xl mx-auto text-gray-700 font-medium">
+                Alles, was wir brauchen, sind Ihre Informationen. Der gesamte Prozess dauert genau 10 Tage.
+            </p>
+            
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="p-8 bg-gray-50 rounded-2xl shadow-sm border border-gray-200">
+                    <div class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-6">1</div>
+                    <h3 class="font-bold text-xl mb-3 uppercase">Daten senden</h3>
+                    <p class="text-gray-600">Senden Sie uns Ihre Unterlagen sicher per WhatsApp.</p>
+                </div>
+                <div class="p-8 bg-gray-50 rounded-2xl shadow-sm border border-gray-200">
+                    <div class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-6">2</div>
+                    <h3 class="font-bold text-xl mb-3 uppercase">Produktion</h3>
+                    <p class="text-gray-600">Offizielle Registrierung und Erstellung in genau 10 Tagen.</p>
+                </div>
+                <div class="p-8 bg-gray-50 rounded-2xl shadow-sm border border-gray-200">
+                    <div class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-6">3</div>
+                    <h3 class="font-bold text-xl mb-3 uppercase">DHL Express</h3>
+                    <p class="text-gray-600">Direkte Lieferung an Ihre Adresse mit Sendungsverfolgung.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="docs" class="py-20 bg-black text-white">
+        <div class="container mx-auto px-4 grid md:grid-cols-2 gap-16">
+            <div>
+                <h2 class="text-3xl font-bold mb-8 text-orange-500 uppercase">Erforderliche Unterlagen</h2>
+                <ul class="space-y-6">
+                    <li class="flex items-center text-lg"><i class="fas fa-id-card text-orange-500 mr-4 text-2xl"></i> Personalausweis (Vorder- & Rückseite)</li>
+                    <li class="flex items-center text-lg"><i class="fas fa-pen-nib text-orange-500 mr-4 text-2xl"></i> Unterschrift auf weißem Papier</li>
+                    <li class="flex items-center text-lg"><i class="fas fa-user-circle text-orange-500 mr-4 text-2xl"></i> Aktuelles Passfoto</li>
+                    <li class="flex items-center text-lg"><i class="fas fa-envelope text-orange-500 mr-4 text-2xl"></i> Ihre E-Mail-Adresse</li>
+                    <li class="flex items-center text-lg"><i class="fas fa-home text-orange-500 mr-4 text-2xl"></i> Vollständige Lieferadresse</li>
+                </ul>
+            </div>
+            
+            <div class="bg-gray-900 p-10 rounded-3xl border-2 border-orange-500 shadow-2xl">
+                <h2 class="text-3xl font-bold mb-6 text-orange-500 uppercase">Preise & Zahlung</h2>
+                <div class="text-5xl font-black mb-8 border-b border-gray-700 pb-4 text-center">2.000 €</div>
+                
+                <div class="space-y-6">
+                    <div class="flex justify-between items-center text-xl">
+                        <span>Anzahlung:</span>
+                        <span class="text-orange-500 font-bold">700 €</span>
+                    </div>
+                    <div class="flex justify-between items-center text-xl border-t border-gray-800 pt-4">
+                        <span>Nach Erhalt:</span>
+                        <span class="text-orange-500 font-bold">1.300 €</span>
+                    </div>
+                </div>
+                
+                <div class="mt-10 p-4 bg-orange-500/10 rounded-lg text-sm text-gray-300">
+                    <p class="italic">Wir senden Ihnen vorab ein Foto Ihres fertigen Führerscheins zur Verifizierung.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black text-white py-12 border-t border-gray-900">
+        <div class="container mx-auto px-4 text-center">
+            <div class="text-2xl font-bold text-orange-500 mb-4">FÜHRERSCHEIN EXPRESS</div>
+            <p class="text-gray-500 mb-8">Sicherer Versand per DHL oder UPS. Diskret und professionell.</p>
+            <div class="flex justify-center space-x-6">
+                <a href="https://wa.me/4915750821799" class="text-green-500 text-3xl hover:scale-110 transition"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p class="mt-8 text-xs text-gray-600 uppercase tracking-widest">&copy; 2026 Führerschein Express - Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
